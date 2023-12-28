@@ -1,0 +1,999 @@
+/* Author: ENIAC
+    Class: IS 302
+    Project: Portfolio Project
+    Date: 11/01/16
+    
+    Filename: main.css
+    Reference Materials: w3schools.
+*/
+
+/* Author: Heather */
+* 
+{
+    box-sizing: border-box;
+}
+
+
+/* Author: Heather */
+html
+{
+	overflow-x: hidden;
+    margin: 0;
+    padding: 0;
+}
+/* Author: Heather */
+body
+{
+	background-color: #686666;
+    text-align: center;
+	padding: .5em;
+    margin: 0em;
+	font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
+}	
+
+/* Author: Heather */
+.header
+{
+	 
+	border-radius: .2em;
+    padding-bottom: .2em;	
+    background-image: url(ocOpac1.jpg); 
+    text-align: left;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+}
+
+/* Author: Heather */
+.formLayout
+{
+	background-color: #26c1d9;
+	margin: .05em .05em 0.2em .05em;
+	padding: .5em 0 1.5em 0;
+	border-radius: .2em;
+    text-align: center;
+}
+
+/* Author: Heather */
+.portfolioDisplay
+{
+	background-color: #26c1d9;
+	margin: .05em;
+	padding: .5em 0 1.5em 0;
+	border-radius: .2em;
+	margin-bottom: .5em;
+}
+
+/* Author: Heather
+    clears after row.
+*/
+.row::after
+{
+    content: "";
+    clear: both;
+    display: table;
+}
+
+/* Author: Heather
+ Layout changes specific to the faq page.*/
+.faq
+{
+    text-align:left;
+}
+
+/* Author: Heather */
+#contactInfo 
+{
+    text-align: left;
+    float: left;
+}
+
+#profilePic
+{
+    border-radius: .2em;
+    height: 20em;
+}
+
+/* Author: Heather
+    Removed bullet list.
+*/
+ul
+{
+    list-style-type: none;
+    padding: 0;
+}
+
+.nav ul
+{
+    list-style-type: none;
+    margin: .5em 0 .5em 0;
+    background-color: #26c1d9;
+    border-radius: .2em;
+}
+
+li#profile
+{
+    list-style-type: none;
+    padding-top: .5em;
+}
+
+/* Author: Heather 
+   Add effects to profile list*/
+#profile a:link
+{
+    list-style-type: none;
+    margin: 2em 0 2em 0;
+    list-style-type: none;
+}
+#profile a:hover
+{
+    background-color: #26c1d9;
+}
+#profile a:active
+{
+    background-color: #bdbaba;
+}
+
+/*Author: Heather
+  Removed underline, added background color and padding.
+*/
+a:link
+{
+    text-decoration: none;
+    font-size: 1.1em;
+    color: black;
+    padding:0 2em 0 2em;
+    list-style: none;
+}
+/*Author: Heather */
+    #logo
+    {
+        border-radius: .2em;
+    }
+#logoLink a:link:hover 
+{
+    background-color: transparent;
+}
+#logoLink
+{
+    max-height: 2em;
+    max-width: 2em;
+}
+
+/* Author: Robert, Heather
+    Current page user is on */
+.nav a.current 
+    {
+        background:#ffffff;
+        border-color: #000000;
+        border-style: solid;
+        border-width: .15em;
+        border-radius: .1em;
+    }
+/* Author: Heather
+   Added bullets back to list*/
+ul.landingList
+{
+    list-style-type: disc;
+    padding: 0% 20% 1% 20%;
+    text-align: left;
+}
+
+/*Author: Heather */
+.nav
+{
+    text-align: left;
+}
+
+/*Author: Heather */
+.nav a:active
+{
+    color: #000000;
+    background-color: #bdbaba;
+    border-radius: .1em;
+}
+
+/* Author: Heather
+   Add hover to nav links */
+.nav a:link:hover
+{
+    background-color: #ffffff;
+    border-radius: .1em;
+}
+
+/* added attributes to error message. */
+.errorMessage
+{
+    font-weight: bold;
+    font-style: italic;
+    font-size: 1.3em;
+    padding: .1em .5em .1em .5em;
+}
+
+#eniac
+    {
+        padding-left: 3em;
+        font-weight: bold;
+        text-shadow: 0em 0em .2em white;
+    }
+
+/*Author: Heather*/
+#info
+{
+    text-align: left;
+    display: inline-block;
+    font-size: 1.1em;
+}
+
+/* Author: Heather
+   Text alignment for search box */
+#searchText
+{
+    text-align: center;
+    padding-bottom: .5em;
+}
+
+button
+{
+    text-align: center;
+}
+
+/*Author: Heather
+  adjusting padding for links as buttons*/
+#buttonAttr
+{
+    padding: 0em;
+}
+
+/*Author: Heather
+    set attributes for buttons only on the profile index page.*/
+button.profButton
+{
+    text-align: center;
+    width: 10em;
+}
+
+/* Set color for fieldset*/
+fieldset
+{
+    border: 0 none;
+    padding: .2em;
+}
+
+p
+{
+    padding: .5em;
+}
+
+/*Align portfolio info */
+p.portfolioP
+{
+    text-align: left;
+    padding-left: 2.5em;
+}
+
+/*Author: Heather */
+h1
+{
+    text-align: left;
+    text-shadow: 0em 0em .2em white;
+}
+
+h2
+{
+    text-align: left;
+    font-size: 1.5em;
+    padding: 0;
+    margin: 0;
+}
+
+h2#forgot
+{
+    text-align: center;
+}
+/* h2 alignment on logged out page.*/
+#loggedText
+{
+    text-align: center;
+    font-size: 1.3em;
+}
+
+/*Author: Heather*/
+h3
+{
+    padding: .3em 0 .1em 1em;
+    text-align: left;
+}
+
+.question
+{
+    font-weight: bold;
+    padding: 0.4em .5em 0 0;
+    text-align: left;
+}
+
+/* Author: Heather*/
+.answer
+{
+    max-width: 95%;
+    word-break: keep-all;
+    text-align: left;
+    padding: 0 0 0.4em .5em;
+}
+
+/*Author: Heather
+tooltip
+*/
+.tip
+{
+    position: relative;
+    display: inline-block;
+}
+
+/*Author: Heather 
+Tooltip text
+*/
+.tip .tipText
+{
+    visibility: hidden;
+    width: 20em;
+    top: -2%;
+    left: 105%;
+    margin-left: .05em;
+    background-color: white;
+    border-radius: .2em;
+    opacity: .9;
+    text-align: center;
+    z-index: 1;
+    position: absolute;
+}
+
+
+/*Author: Heather */
+.tip:hover .tipText
+{
+    visibility: visible;
+}
+
+/*Author: Heather*/
+strong
+{
+	text-emphasis: bold;
+}
+
+/* Author: Heather
+   To emphasis links embedded in the tags.
+*/
+#emLink
+{
+    background-color: white;
+    border-radius: .2em;
+}
+
+/* Author: Josh, Heather */
+footer
+{
+    text-align: center;
+	background-color: #26c1d9;
+	border-radius: .2em;
+    margin-top: .5em;
+}
+/*Author: Heather
+  tab in the verifycode button*/
+    
+#code
+{
+    margin: 0 0 .3em 2em;
+}
+
+/*Author: Heather
+  To left align speciality selections */
+#primarySpec
+{
+    text-align: left;
+    padding: 1.5em;
+}
+
+
+/* Author: Heather
+   Text alignment for search box */
+#searchText
+{
+    text-align: center;
+    padding-bottom: .5em;
+}
+
+/*alignment on reset password page.*/
+.resetPass
+{
+    text-align: right;
+    display: inline-block;
+    width: 9em;
+}
+
+.inputReset
+{
+    text-align: left;
+    display: inline-block;
+}
+
+/*alignment on login */
+.loginLabel
+{
+    text-align: right;
+    display: inline-block;
+    width: 5em;
+}
+
+.loginInput
+{
+    text-align: left;
+    display: inline-block;
+}
+
+@media (min-width:0px) and (max-width: 599px)
+{
+    /* To be dealt with later.*/
+    .col-5{ width: 100%; }
+    .col-7{ width: 100%; }
+    
+    /* Author: Heather*/
+    form
+    {
+        margin: 1% 0 0 0;
+        float: center;
+        white-space: normal;
+        display: inline-block;
+    }
+    
+    /* Author: Heather
+   layout for aside on portfolio page.
+    */
+    .aside
+    {
+        background-color: white;
+        text-align: center;
+        font-size: 1em;
+        padding: 1em;
+        border-radius: .2em;
+    }
+    
+    .textField
+    {
+        display: inline-block;
+        width: 1em;
+        height: 2em;
+        text-align: right;
+        padding: 0.4em .5em 0 0;
+        margin: 0 0 .3em 0;
+    }
+
+    .inputField
+    {
+        display: inline-block;
+        width: 15em;
+        margin: 0 0.3em 0;
+        text-align: center;
+        vertical-align: top;
+    }
+    
+    /*Contact us alignment*/
+     .textContact
+    {
+        display: inline-block;
+        height: 2em;
+        text-align: left;
+        padding: 0.4em .5em 0 0;
+        margin: 0 0 .3em 0;
+    }
+
+    .inputContact
+    {
+        display: inline-block;
+        width: 15em;
+        margin: 0 0.3em 0;
+        text-align: center;
+        vertical-align: top;
+    }
+    
+    /*Author: Heather*/
+    .inputProfile
+    {
+        display: block;
+        width: 15em;
+        margin: 0 0.4em .1em 0;
+        text-align: center;           
+        vertical-align: top;
+    }
+    
+    /*Author: Heather*/
+    textarea
+    {
+        width: 20em;
+        height: 5em;
+        resize: none;
+        border-radius: .2em;
+    }
+    
+    /* portfolio content*/
+    #profileContent
+    {
+        text-align: left;
+        float: none;
+        background-color: #ffffff;
+        border-radius: .2em;
+        margin-top: 2em;
+    }
+
+    /* Author: Heather */
+    #resumeLink
+    {
+        text-align: center;
+        margin-bottom: 2em;
+    }
+    
+    /*Author: Heather */
+    #logo
+    {
+        margin: .75em 1.5em .5em 0em;
+        float: left;
+    }
+
+    /*Author: Heather */
+    #cohort
+    {
+        margin: .75em 1.5em .5em 1.5em;
+        float: right;
+    }
+    
+    /* Author: Heather */
+    .banner
+    {
+        padding: 1% 25% 1% 25%;
+        background-color: azure;
+    }
+    
+    /* aside on profile index */
+    .side-nav
+    {
+        background-color: white;
+        text-align: center;
+        float: center;
+        font-size: 1em;
+        padding: 2em;
+        border-radius: .2em;
+        line-height: 4em;
+    }
+    
+    /* content for profile index */
+    /* Author: Heather */
+    #profileInfo 
+    {
+        text-align: left;
+        float: none;
+        background-color: white;
+        border-radius: .2em;
+        margin-top: 2em;
+    }
+    
+    .side-nav a:link
+    {
+        padding: 0 .5em 0 .5em;
+    }
+}
+/* Author: Heather
+   Column spacing for responsive design. tablet
+*/
+@media (min-width: 600px) and (max-width: 799px)
+{
+    
+    .col-1{ width: 8.33%;  }
+    .col-2{ width: 16.66%; }
+    .col-3{ width: 25%;    }
+    .col-4{ width: 33.33%; }
+    .col-5{ width: 41.66%; }
+    .col-6{ width: 50%;    }
+    .col-7{ width: 58.33%; }
+    .col-8{ width: 66.66%; }
+    .col-9{ width: 75%;    }
+    .col-10{width: 83.33%; }
+    .col-11{width: 91.66%; }
+    .col-12{width: 100%;   }
+    
+    form
+    {
+        margin: 1% 5% 0 5%;
+        float: center;
+        white-space: normal;
+        display: inline-block;
+    }
+    
+    .nav li
+    {
+        display: block;
+        padding-bottom: .15em;
+    }
+    #logo
+    {
+        margin: .75em .5em .5em 0;
+        float: left;
+        border-radius: .2em;
+        max-width: 4em;
+    }
+    #eniac
+    {
+        padding: 0 3em 0 10;
+    }
+    
+    /*Author: Heather */
+    #cohort
+    {
+        margin: 1em 4em .5em 1.5em;
+        float: right;
+    }
+    
+    /*Author: Heather */
+    .textField
+    {
+        display: inline-block;
+        width: 10em;
+        height: 2em;
+        text-align: right;
+        padding: 0.4em .5em 0 0;
+        margin: 0 0 .1em 0;
+    }
+    
+    /*Author: Heather */
+    .inputField
+    {
+        display: inline-block;
+        width: 15em;
+        margin: 0 0 .1em 0;
+        text-align: left;           
+        vertical-align: middle;
+    }
+    
+    /*Contact us alignment*/
+     .textContact
+    {
+        width: 5em;
+        text-align: left;
+        padding: 0.4em .5em 0 0;
+        margin: 0 0 .3em 0;
+    }
+
+    .inputContact
+    {
+        display: inline-block;
+        width: 15em;
+        margin: 0 0.3em 0;
+        text-align: center;
+        vertical-align: top;
+    }
+    
+    
+     /* Author: Heather
+    Cleanup the layout on the editProfile page.
+    */
+    .uploadLayout
+    {
+        text-align: left;
+        display: block;
+    }
+    
+    .aside
+    {
+        background-color: white;
+        text-align: center;
+        font-size: 1em;
+        padding: 1em;
+        border-radius: .2em;
+        float: left;
+        margin-right: .5em;
+    }
+    
+    /* portfolio info */
+    #profileContent
+    {
+        text-align: left;
+        float: none;
+        background-color: #ffffff;
+        border-radius: .2em;
+        margin-top: 2em;
+    }
+    
+    /* aside on profile index */
+    .side-nav
+    {
+        background-color: white;
+        text-align: center;
+        float: left;
+        font-size: 1em;
+        padding: .5em;
+        border-radius: .2em;
+        margin-right: 2 em;
+        line-height: 5em;
+    }
+    
+    /* content for profile index */
+     /* Author: Heather */
+    #profileInfo 
+    {
+        text-align: left;
+        float: none;
+        background-color: white;
+        border-radius: .2em;        
+        padding: 0 1.5em 1.5em 1.5em;
+        margin-top: 2em;
+    }
+    
+    #resumeLink
+    {
+        text-align: left;
+        margin-bottom: 2em;
+
+    }
+    
+    /*Author: Heather*/
+    .inputProfile
+    {
+        display: block;
+        width: 15em;
+        margin: 0 0.4em .1em 0;
+        text-align: center;           
+        vertical-align: top;
+    }
+    
+    /*Author: Heather*/
+    textarea
+    {
+        width: 20em;
+        height: 5em;
+        resize: none;
+        border-radius: .2em;
+    }
+    
+    /* Author: Heather */
+    a:link
+    {
+        text-decoration: none;
+        color: black;
+        padding-right: 0 1em 0 1em;
+    }
+    
+    .side-nav a:link
+    {
+        padding: 0 1em 0 1em;
+    }
+    
+    /* Author: Heather */
+    .banner
+    {
+        padding: 1% 25% 1% 25%;
+    }
+    
+    /* Author: Heather
+   Text alignment for search box */
+    #searchText
+    {
+        text-align: center;
+        padding-bottom: .5em;
+    }
+
+}
+/* Author: Heather
+   Column spacing for responsive design. Desktop
+*/
+@media only screen and (min-width: 800px)
+{
+    .col-1{ width: 8.33%;  }
+    .col-2{ width: 16.66%; }
+    .col-3{ width: 25%;    }
+    .col-4{ width: 33.33%; }
+    .col-5{ width: 41.66%; }
+    .col-6{ width: 50%;    }
+    .col-7{ width: 58.33%; }
+    .col-8{ width: 66.66%; }
+    .col-9{ width: 75%;    }
+    .col-10{width: 83.33%; }
+    .col-11{width: 91.66%; }
+    .col-12{width: 100%;   }
+    
+    /* Author: Heather*/
+    form
+    {
+        margin: 1% 10% 0 10%;
+        float: none;
+        white-space: normal;
+        display: inline-block;
+    }
+    */
+    /*Author: Heather*/
+    .nav
+    {
+        list-style-type: none;
+        text-align: center;
+        margin-bottom: .6em;
+        padding: .1em 0 .1em 0;
+        font-size: 1.1em;
+        white-space: nowrap;
+    }
+    
+    .textField
+    {
+        display: inline-block;
+        width: 11em;
+        height: 2em;
+        text-align: right;
+        padding: 0.4em 1em 0 1em;
+        margin: 0 0 .1em 0;
+    }
+    .inputField
+    {
+        display: inline-block;
+        width: 15em;
+        margin: 0 0 .1em 0;
+        text-align: left;           
+        vertical-align: middle;
+    }
+    
+    /* Author: Heather */
+    .inputProfile
+    {
+        display: inline-block;
+        width: 15em;
+        margin: 0 0.4em .1em 0;
+        text-align: center;           
+        vertical-align: top; 
+    }
+    
+    /* Author: Heather */
+    textarea
+    {
+        text-align: left;
+        display: inline-block;
+        word-break: keep-all;
+    }
+
+     /* portfolio info */
+    #profileContent
+    {
+        text-align: left;
+        float: right;
+        background-color: #ffffff;
+        border-radius: .2em;
+    }
+    
+    /* Author: Heather 
+       Centers the site navigation.*/
+    .nav
+    {
+        text-align: center;
+    }
+    
+    .nav li
+    {
+        display: inline;
+    }
+
+    /*Author: Heather */
+    #logo
+    {
+        float: left;
+        margin: 2.5em 3em 1em 0;
+        border-radius: 1.5em;
+        max-width: 6em;
+    }
+    
+    /*Author: Heather*/
+    #eniac
+    {
+        padding: 0 15em 0 15em;
+    }
+    
+    /*Author: Heather */
+    #cohort
+    {
+        margin: 1em 4em .5em 1.5em;
+        float: right;
+    }
+    
+    /* Author: Heather
+    Cleanup the layout on the editProfile page.
+    */
+    .uploadLayout
+    {
+        text-align: center;
+        display: block;
+    }
+    
+    /*Author: Heather*/
+    #info
+    {
+        text-align: left;
+        display: inline-block;
+        padding: 0 10em 0 10em;
+    }
+   
+    div
+    {
+        display: inline-block;
+    }
+    .aside
+    {
+        background-color: white;
+        text-align: center;
+        font-size: 1em;
+        padding: 1em;
+        border-radius: .2em;
+        float: left;
+        margin-right: .5em;
+    }
+    
+    /* aside on profile index */
+    .side-nav
+    {
+        background-color: white;
+        text-align: center;
+        float: left;
+        font-size: 1em;
+        padding: 1em;
+        border-radius: .2em;
+        margin-right: 2em;
+        line-height: 5em;
+    }
+    
+     /* Author: Heather
+        content for profile index */
+    #profileInfo 
+    {
+        float: right;
+        background-color: white;
+        border-radius: .2em;
+        padding: .8em 1.5em 2em 1.5em;
+        margin-left: 2em;
+    }
+    
+    #resumeLink
+    {
+        text-align: left;
+        padding: .3em;
+        margin-bottom: .2em;
+    }
+    
+    /* Author: Heather
+   Added bullets back to list*/
+    ul.landingList
+    {
+        list-style-type: disc;
+        padding: 0% 30% 1% 30%;
+        text-align: left;
+    }
+    
+    /* Author: Heather */
+    a:link
+    {
+        text-decoration: none;
+        color: black;
+        padding: 0 3em 0 3em;
+    }
+    
+    .side-nav a:link
+    {
+        padding: 0 1.5em 0 1.5em;
+    }
+    
+    /* Author: Heather */
+    .banner
+    {
+        padding: 1% 25% 1% 25%;
+    }
+    
+    /* Author: Heather
+   Text alignment for search box */
+    #searchText
+    {
+        text-align: center;
+        padding-bottom: .5em;
+    }
+}
